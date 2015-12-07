@@ -1,0 +1,25 @@
+{
+    "name": "com.cortexpowered.apps.cortex-seed",
+    "version": "1.0.2",
+    "displayName": "Cortex Seed App",
+    "description": "A seed application to get you started on Cortex platform.",
+    "author": "Cortex",
+    "email": "support@cortexpowered.com",
+    "homepage": "http://www.cortexpowered.com",
+    "type": "application",
+    "assets": {
+        "icon128": "",
+        "icon256": "./app_assets/cortex512.png",
+        "icon512": "",
+        "screenshot1": "./app_assets/screenshot1.png",
+        "screenshot2": "",
+        "screenshot3": "",
+        "screenshot4": "",
+        "screenshot5": ""
+    },
+    "parameters": [{
+        "name": "cortex-seed.name",
+        "default": "Cortex",
+        "description": "Name of the user to greet."
+    }]
+}
