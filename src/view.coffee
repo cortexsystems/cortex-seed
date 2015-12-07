@@ -1,6 +1,6 @@
 class View
   constructor: (config) ->
-    @_name = config.name
+    @_name = config['cortex-seed.name']
 
   # During the initialization we set this method to be the onPrepare callback.
   # The Cortex player will call this method whenever it needs this application
