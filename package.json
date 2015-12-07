@@ -1,6 +1,6 @@
 {
   "name": "com.cortexpowered.apps.cortex-seed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A seed application to get you started on Cortex platform.",
   "main": "index.js",
   "scripts": {
