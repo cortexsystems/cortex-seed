@@ -20,7 +20,7 @@ project =
   readme:       './README.md'
 
 gulp.task 'default', ['pack']
-gulp.task 'build', ['src', 'app_assets', 'static', 'style', 'manifest','changelog','readme']
+gulp.task 'build', ['src', 'app_assets', 'static', 'style', 'manifest', 'changelog', 'readme']
 
 gulp.task 'src', ->
   gulp.src('./src/index.coffee',  read: false)
